@@ -1,0 +1,31 @@
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+
+}
+
+tr:first-child{
+    background-color: black;
+    color: white;
+   
+}
+td, th{
+    border-right: 1px solid black;
+    padding: 5px 10px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+.tituloYoutube{
+    color: #CC0000;
+}
+.tituloInstagram{
+    color: #EA0C5F;
+}
+.Youtube:hover{
+    background-color: #EA0C5F;
+    transform: scale(1.1);
+}
+.Instagram:hover{
+    background-color:  #CC0000;
+    transform: scale(1.1);
+}
